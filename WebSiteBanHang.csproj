@@ -132,7 +132,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
-    <Compile Include="Areas\Admin\Controllers\ListSPController.cs" />
+    <Compile Include="Areas\Admin\Controllers\AddspController.cs" />
     <Compile Include="Controllers\GioHangController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\KhachHangController.cs" />
@@ -193,6 +193,7 @@
       <DependentUpon>QuanLyBanHangModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\ViewMD\ListSanPhamAD_MD.cs" />
+    <Compile Include="Models\ViewMD\ThemSPMD.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -352,7 +353,7 @@
     </Content>
     <Content Include="Content\images\_notes\pizza1.jpg.mno" />
     <Content Include="Areas\Admin\Views\web.config" />
-    <Content Include="Areas\Admin\Views\ListSP\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Addsp\Index.cshtml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -401,6 +402,7 @@
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Admin\Views\Shared\" />
+    <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
